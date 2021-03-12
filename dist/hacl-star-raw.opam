@@ -15,9 +15,9 @@ homepage: "https://hacl-star.github.io/"
 bug-reports: "https://github.com/project-everest/hacl-star/issues"
 depends: [
   "ocaml" { >= "4.08.0" }
-  "ocamlfind" {build}
+  "dune" { >= "2.6" }
   "ctypes" { >= "0.18.0" }
-  "conf-which" {build}
+  "ctypes-foreign"
 ]
 available: [
   arch != "ppc64" & arch != "ppc32" &
@@ -28,10 +28,7 @@ x-ci-accept-failures: [
   "oraclelinux-7" # Default C compiler is too old
 ]
 build: [
-  ["./configure"]
-  [make]
-]
-install: [
-  make "install-hacl-star-raw"
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs "@install" "@runtest" {with-test} "@doc" {with-doc}]
 ]
 dev-repo: "git+https://github.com/project-everest/hacl-star.git"
