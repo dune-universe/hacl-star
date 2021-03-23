@@ -214,17 +214,7 @@
   (language c)
   (names EverCrypt_AEAD_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -253,17 +243,7 @@
   (language c)
   (names EverCrypt_AutoConfig2_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -298,17 +278,7 @@
   (language c)
   (names EverCrypt_CTR_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -337,17 +307,7 @@
   (language c)
   (names EverCrypt_Chacha20Poly1305_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -378,17 +338,7 @@
   (language c)
   (names EverCrypt_Cipher_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -417,17 +367,7 @@
   (language c)
   (names EverCrypt_Curve25519_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -462,17 +402,7 @@
   (language c)
   (names EverCrypt_DRBG_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -501,17 +431,7 @@
   (language c)
   (names EverCrypt_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -540,17 +460,7 @@
   (language c)
   (names EverCrypt_Error_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -583,17 +493,7 @@
   (language c)
   (names EverCrypt_HKDF_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -626,17 +526,7 @@
   (language c)
   (names EverCrypt_HMAC_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -669,17 +559,7 @@
   (language c)
   (names EverCrypt_Hash_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -708,17 +588,7 @@
   (language c)
   (names EverCrypt_Poly1305_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -747,17 +617,7 @@
   (language c)
   (names EverCrypt_StaticConfig_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -786,17 +646,7 @@
   (language c)
   (names EverCrypt_Vale_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -825,17 +675,7 @@
   (language c)
   (names Hacl_Bignum_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -864,17 +704,7 @@
   (language c)
   (names Hacl_Bignum25519_51_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -903,17 +733,7 @@
   (language c)
   (names Hacl_Bignum256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -946,17 +766,7 @@
   (language c)
   (names Hacl_Bignum256_32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -989,17 +799,7 @@
   (language c)
   (names Hacl_Bignum32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1032,17 +832,7 @@
   (language c)
   (names Hacl_Bignum4096_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1075,17 +865,7 @@
   (language c)
   (names Hacl_Bignum4096_32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1118,17 +898,7 @@
   (language c)
   (names Hacl_Bignum64_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1157,17 +927,7 @@
   (language c)
   (names Hacl_Bignum_Base_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1196,17 +956,7 @@
   (language c)
   (names Hacl_Chacha20_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1235,17 +985,7 @@
   (language c)
   (names Hacl_Chacha20Poly1305_128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1276,17 +1016,7 @@
   (language c)
   (names Hacl_Chacha20Poly1305_256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1317,17 +1047,7 @@
   (language c)
   (names Hacl_Chacha20Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1358,17 +1078,7 @@
   (language c)
   (names Hacl_Chacha20_Vec128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1397,17 +1107,7 @@
   (language c)
   (names Hacl_Chacha20_Vec256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1436,17 +1136,7 @@
   (language c)
   (names Hacl_Chacha20_Vec32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1475,17 +1165,7 @@
   (language c)
   (names Hacl_Curve25519_51_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1514,17 +1194,7 @@
   (language c)
   (names Hacl_Curve25519_64_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1553,17 +1223,7 @@
   (language c)
   (names Hacl_Curve25519_64_Slow_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1592,17 +1252,7 @@
   (language c)
   (names Hacl_EC_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1631,17 +1281,7 @@
   (language c)
   (names Hacl_Ed25519_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1674,17 +1314,7 @@
   (language c)
   (names Hacl_FFDHE_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1713,17 +1343,7 @@
   (language c)
   (names Hacl_Frodo1344_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1752,17 +1372,7 @@
   (language c)
   (names Hacl_Frodo64_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1791,17 +1401,7 @@
   (language c)
   (names Hacl_Frodo640_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1830,17 +1430,7 @@
   (language c)
   (names Hacl_Frodo976_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1873,17 +1463,7 @@
   (language c)
   (names Hacl_Frodo_KEM_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1912,17 +1492,7 @@
   (language c)
   (names Hacl_GenericField32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1955,17 +1525,7 @@
   (language c)
   (names Hacl_GenericField64_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -1994,17 +1554,7 @@
   (language c)
   (names Hacl_HKDF_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2033,17 +1583,7 @@
   (language c)
   (names Hacl_HKDF_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2072,17 +1612,7 @@
   (language c)
   (names Hacl_HKDF_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2111,17 +1641,7 @@
   (language c)
   (names Hacl_HMAC_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2150,17 +1670,7 @@
   (language c)
   (names Hacl_HMAC_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2189,17 +1699,7 @@
   (language c)
   (names Hacl_HMAC_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2232,17 +1732,7 @@
   (language c)
   (names Hacl_HMAC_DRBG_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2271,17 +1761,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2312,17 +1792,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP128_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2353,17 +1823,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2394,17 +1854,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP256_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2435,17 +1885,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2476,17 +1916,7 @@
   (language c)
   (names Hacl_HPKE_Curve51_CP32_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2517,17 +1947,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2558,17 +1978,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP128_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2599,17 +2009,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2640,17 +2040,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP256_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2681,17 +2071,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2722,17 +2102,7 @@
   (language c)
   (names Hacl_HPKE_Curve64_CP32_SHA512_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2763,17 +2133,7 @@
   (language c)
   (names Hacl_HPKE_P256_CP128_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2804,17 +2164,7 @@
   (language c)
   (names Hacl_HPKE_P256_CP256_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2845,17 +2195,7 @@
   (language c)
   (names Hacl_HPKE_P256_CP32_SHA256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2890,17 +2230,7 @@
   (language c)
   (names Hacl_Hash_Base_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2929,17 +2259,7 @@
   (language c)
   (names Hacl_Hash_Blake2_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -2968,17 +2288,7 @@
   (language c)
   (names Hacl_Hash_Blake2b_256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3007,17 +2317,7 @@
   (language c)
   (names Hacl_Hash_Blake2s_128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3046,17 +2346,7 @@
   (language c)
   (names Hacl_Hash_MD5_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3085,17 +2375,7 @@
   (language c)
   (names Hacl_Hash_SHA1_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3124,17 +2404,7 @@
   (language c)
   (names Hacl_Hash_SHA2_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3163,17 +2433,7 @@
   (language c)
   (names Hacl_IntTypes_Intrinsics_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3204,17 +2464,7 @@
   (language c)
   (names Hacl_NaCl_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3243,17 +2493,7 @@
   (language c)
   (names Hacl_P256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3282,17 +2522,7 @@
   (language c)
   (names Hacl_Poly1305_128_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3321,17 +2551,7 @@
   (language c)
   (names Hacl_Poly1305_256_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3360,17 +2580,7 @@
   (language c)
   (names Hacl_Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3403,17 +2613,7 @@
   (language c)
   (names Hacl_RSAPSS_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3442,17 +2642,7 @@
   (language c)
   (names Hacl_SHA3_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3481,17 +2671,7 @@
   (language c)
   (names Hacl_Salsa20_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3520,17 +2700,7 @@
   (language c)
   (names Hacl_Spec_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3565,17 +2735,7 @@
   (language c)
   (names Hacl_Streaming_Blake2_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3608,17 +2768,7 @@
   (language c)
   (names Hacl_Streaming_MD5_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3647,17 +2797,7 @@
   (language c)
   (names Hacl_Streaming_Poly1305_32_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3692,17 +2832,7 @@
   (language c)
   (names Hacl_Streaming_SHA1_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3731,17 +2861,7 @@
   (language c)
   (names Hacl_Streaming_SHA2_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
@@ -3770,17 +2890,7 @@
   (language c)
   (names Lib_RandomBuffer_System_c_stubs)
   (extra_deps (alias foreign_headers))
-  (flags
-   (:standard
-    -I..
-    -Wno-parentheses
-    -Wno-deprecated-declarations
-    -Wno-#warnings
-    -Wno-error=cpp
-    -Wno-cpp
-    -g
-    -std=gnu11
-    -O3))
+  (flags (:include dune.cflags))
   (include_dirs ../../kremlin/include ../../kremlin/kremlib/dist/minimal)))
 
 (rule
